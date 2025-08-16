@@ -125,27 +125,6 @@ mindmap
       Dark Mode
 ```
 
-## 🏁 Component State Flow
-
-```mermaid
-stateDiagram-v2
-    [*] --> Default
-    Default --> Focused: User focuses
-    Default --> Disabled: disabled prop
-    
-    Focused --> Typing: User types
-    Focused --> Default: User blurs
-    
-    Typing --> Valid: Valid input
-    Typing --> Invalid: Invalid input
-    Typing --> Default: User blurs
-    
-    Valid --> Default: User blurs
-    Invalid --> Default: User blurs
-    Invalid --> Valid: User corrects
-    
-    Disabled --> [*]: Component unmounted
-```
 
 ## 🎨 Design System
 Built with accessibility and consistency in mind, following modern UI patterns.
