@@ -52,7 +52,7 @@ graph TB
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/UI-ForProjects.git
+git clone https://github.com/akhilthirunalveli/UI-ForProjects.git
 cd UI-ForProjects
 npm install
 ```
@@ -147,6 +147,7 @@ stateDiagram-v2
     Disabled --> [*]: Component unmounted
 ```
 
+## 🎨 Design System
 Built with accessibility and consistency in mind, following modern UI patterns.
 
 ## 📖 Documentation & Demo
@@ -185,4 +186,24 @@ graph TD
     style A fill:#f9f9f9
     style G fill:#e3f2fd
     style C fill:#fff3e0
+```
+
+## 🚀 Tech Stack
+
+- **Framework**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **Documentation**: Storybook
+- **Testing**: Vitest + React Testing Library
+- **Build Tool**: Vite
+- **Hosting**: Chromatic
+
+## 🔧 Available Scripts
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run storybook    # Start Storybook dev server
+npm run build-storybook  # Build Storybook for production
+npm test             # Run tests
+npm run chromatic    # Deploy to Chromatic
 ```
