@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* basic spinner */
+@layer components {
+  .spinner {
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+}
+
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --muted: #6b7280;
+  --text: #0f172a;
+  --border: #e6e9ef;
+}
+
+.dark {
+  --bg: #0b1220;
+  --surface: #071029;
+  --muted: #9ca3af;
+  --text: #e6eef8;
+  --border: #152033;
+}
+
+/* input base */
+.input-base {
+  transition: box-shadow 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, color 0.12s ease;
+  background-color: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.input-focus:focus {
+  box-shadow: 0 6px 18px rgba(79,70,229,0.12);
+  border-color: #6366f1;
+}
+
