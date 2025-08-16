@@ -2,6 +2,13 @@
 
 A modern React component library built with TypeScript and Storybook.
 
+## 🌟 **Live Demo**
+### 👉 **[View Components Library](https://68a095e666964889d14143db-fqhuflqkfh.chromatic.com/)** 👈
+
+> **Explore all components, variants, and interactive features in our hosted Storybook!**
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -42,5 +49,14 @@ A versatile input component with multiple variants and states.
 ## 🎨 Design System
 Built with accessibility and consistency in mind, following modern UI patterns.
 
-## 📖 Documentation
-View live components in [Storybook](your-storybook-url)
+## 📖 Documentation & Demo
+- **Live Components**: [Chromatic Storybook](https://68a095e666964889d14143db-fqhuflqkfh.chromatic.com/)
+- **Interactive Examples**: Try all variants and states
+- **Design Tokens**: Consistent spacing, colors, and typography
+
+## 🛠️ Development Approach
+- Component-driven development
+- TypeScript for type safety
+- Accessibility-first design
+- Customizable theming system
+- Comprehensive testing with Storybook
